@@ -1,0 +1,13 @@
+main{
+  /* @apply is the tailwind property */
+  @apply min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500 grid place-items-center
+}
+main>div{
+  @apply bg-white p-2 rounded-md shadow-xl w-96 
+}
+input[type="text"]{
+  @apply w-full border-zinc-300 outline-none border-2 p-2 rounded-md
+}
+input[type="submit"]{
+  @apply bg-purple-400 px-3 rounded-md hover:bg-purple-500 
+}
